@@ -55,7 +55,7 @@ while True:
             if counter:
                 counter += 1
                 color = (0, 255, 0)
-                if counter == 7:
+                if counter == 3:
                     print(counter)
                     cx = np.random.random_integers(100, 1100)
                     cy = np.random.random_integers(100, 600)
