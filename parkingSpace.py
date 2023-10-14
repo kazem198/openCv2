@@ -49,8 +49,11 @@ while True:
     checkParkingSpace(imgdilate)
 
     cv2.imshow("img", img)
+    cv2.imshow("imgGray", imgGray)
     cv2.imshow("imgBlur", imgBlur)
     cv2.imshow("imgThershold", imgThershold)
+    cv2.imshow("imgMedian", imgMedian)
+    cv2.imshow("imgdilate", imgdilate)
 
     if cv2.waitKey(10) & 0xFF == ord("q"):
         cv2.destroyAllWindows()
